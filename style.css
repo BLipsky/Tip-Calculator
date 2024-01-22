@@ -1,2 +1,10 @@
 /* Div Classes */ 
 
+ .full {
+    text-align: center;
+    background-repeat: no-repeat;
+ }
+
+ body {
+    border: 2vw solid black;
+ }
