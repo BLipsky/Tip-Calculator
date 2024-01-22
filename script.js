@@ -1,16 +1,18 @@
-var bill = ""
+var totalBill = ""
 var qualityService = ""
 var partySize = ""
 
+let tip;
 
 switch (qualityService) {
     case Great:
-    Tip = bill * 0.2
+    tip = totalBill * 0.2
         break;
     case Good:
-    Tip = bill * 0.15
+    tip = totalBill * 0.15
         break;
     case Poor:
-    Tip = bill * 0.1
+    tip = totalBill * 0.1
         break;
 }
+
