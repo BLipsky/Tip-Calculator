@@ -1,10 +1,22 @@
-/* Div Classes */ 
-
  .full {
     text-align: center;
     background-repeat: no-repeat;
  }
-
+ .top {
+   border-radius: 5vw;
+   border: .25vw solid grey;
+   padding: 1vw;
+   margin-top: 5vw;
+   margin-left: 5vw;
+   margin-right: 5vw;
+ }
+  .bord {
+   box-shadow: 0vw 0vw 4vw 0vw rgb(16, 94, 0); 
+ }
  body {
-    border: 2vw solid black;
+    border-left: 2vw solid black;
+    border-right: 2vw solid black;
+    overflow-y: hidden;
+    height: 500vw;
+    border-top: vw solid black;
  }
