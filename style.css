@@ -14,9 +14,12 @@
    box-shadow: 0vw 0vw 4vw 0vw rgb(16, 94, 0); 
  }
  body {
-    border-left: 2vw solid black;
-    border-right: 2vw solid black;
+    border-left: 1vw dashed black;
+    border-right: 1vw dashed black;
     overflow-y: hidden;
     height: 500vw;
-    border-top: vw solid black;
+    border-top: 1vw dashed black;
+    background-color: aliceblue;
+    box-shadow: inset 0vw 0vw 10vw .1px rgb(0, 0, 0);
+
  }
