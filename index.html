@@ -32,7 +32,7 @@
     </div>
     <div class="row">
         <div class="col-6 ml-2 mr-2 mt-2">
-            <label for="totalBill" class="from-label">Total Bill:</label>
+            <label for="totalBill" class="from-label">Bill:</label>
             <!-- Input for Bill Amount-->
             <input type="text" class="form-control" id="totalBill" placeholder="Enter Total Bill" />
     </div>
@@ -48,25 +48,25 @@
         <select class="form-select" id="serviceQuality">
         <option place></option>
         <option value="great">Great</option>
-        <option value="great">Good</option>
-        <option value="great">Poor</option>
+        <option value="good">Good</option>
+        <option value="poor">Poor</option>
     </select>
     </div>
     <div class="col-6 mt-4">
     <!-- Button to Trigger Calculation-->
-        <button class="btn btn-success bord" onclick="calculateAndDisplay()">Calculate</button>
+        <button class="btn btn-success bord" onclick=calculateAndDisplay()>Calculate</button>
     </div>
     </div>
     </div>
     </div>
     <div class="row mt-4">
 
-        <div class="col-12">
+        <div class="res" >
             <!-- Results -->
             <h1> Results: </h1>
             <p id="tipResult"></p>
             <p id="totalBillResult"></p>
-            <p id="amyPerPersonResult"></p>
+            <p id="amtPerPersResult"></p>
         </div>
 
     </div>
